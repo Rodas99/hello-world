@@ -80,6 +80,7 @@
 				</configuration>
 			</plugin>
 		</plugins>
+		<finalName>hello-world</finalName>
 	</build>
 
 </project>
