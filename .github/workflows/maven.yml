@@ -14,9 +14,12 @@ on:
   pull_request:
     branches: [ "develop" ]
 
+permissions:
+  contents: read
+  security-events: write
+
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
